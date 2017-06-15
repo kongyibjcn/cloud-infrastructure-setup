@@ -1,0 +1,10 @@
+bootstrap_url: {{ dcos_bootstrap_url }}
+cluster_name: {{ dcos_cluster_name }}
+exhibitor_storage_backend: {{ dcos_exhibitor_storage_backend }}
+ip_detect_path: {{ dcos_bootstrap_dir }}/genconf/ip-detect
+master_discovery: static
+master_list:
+- 9.112.245.110
+resolvers:
+- {{ dcos_resolvers_0 }}
+- {{ dcos_resolvers_1 }}

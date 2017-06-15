@@ -1,2 +1,2 @@
 ---
-- include: mytest.yml
+- include: playbook-dcos.yml
