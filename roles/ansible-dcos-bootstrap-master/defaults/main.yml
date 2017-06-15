@@ -1,0 +1,7 @@
+---
+# defaults file for ansible-dcos-bootstrap-master
+
+dcos_bootstrap_url: "{{ bootstrap_internal_url }}"
+bootstrap_internal_url: http://pe101.cn.ibm.com:{{ dcos_bootstrap_port }}
+bootstrap_external_url: http://pe101.cn.ibm.com:{{ dcos_bootstrap_port }}
+dcos_bootstrap_port: 80
